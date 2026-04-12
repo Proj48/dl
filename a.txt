@@ -1,3 +1,6 @@
+C:\Users\polsa\AppData\Local\Programs\Python\Python310\python.exe -m pip install ipykernel
+C:\Users\polsa\AppData\Local\Programs\Python\Python310\python.exe -m ipykernel install --user --name=python310 --display-name "Python 3.10"
+C:\Users\polsa\AppData\Local\Programs\Python\Python310\python.exe -m pip install tensorflow
 #Pract 1:
 !pip install numpy
 import numpy as np
