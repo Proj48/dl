@@ -1,7 +1,7 @@
 C:\Users\polsa\AppData\Local\Programs\Python\Python310\python.exe -m pip install ipykernel
 C:\Users\polsa\AppData\Local\Programs\Python\Python310\python.exe -m ipykernel install --user --name=python310 --display-name "Python 3.10"
 C:\Users\polsa\AppData\Local\Programs\Python\Python310\python.exe -m pip install tensorflow
-#Pract 1:
+#Pract 1: Deep learning eigen values vector
 !pip install numpy
 import numpy as np
 m=np.array([[1,2],[2,3]])
@@ -35,7 +35,7 @@ print("Eigen values:\n{}\n \nEigen vector:\n{}\n".format(eigen_vectors,eigen_val
 
 _________________________________________________XXX____________________________________________
 
-#Pract 2:
+#Pract 2:XOR using deep feed forward network
 !pip install numpy
 import numpy as np
 
@@ -85,7 +85,7 @@ print("XOR({}, {}) = {}".format(1,0,XOR_logicFunction(test3)))
 print("XOR({}, {}) = {}".format(1,1,XOR_logicFunction(test4)))
 
 _____________________________________________XXX__________________________________________________________
-#Pract 3
+#Pract 3 : Implement a Basic Neural Network in TensorFlow
 !pip install tensorflow
 !pip install numpy
 !pip install matplotlib
@@ -167,7 +167,7 @@ plt.show()
 
 _________________________________XXXXXXX________________________
 
-#Pract 4
+#Pract 4 : Implement Convolutional Neural Network for Digit Recognition on the MNIST Dataset 
 !pip install tensorflow numpy matplotlib
 import numpy as np
 import matplotlib.pyplot as plt
@@ -241,7 +241,7 @@ plt.show()
 
 __________________________________________XXXXXXXXXX_____________________________________
 
-#Pract 5
+#Pract 5 : Implement RNN for Time Series Prediction 
 !pip install tensorflow numpy matplotlib scikit-learn
 import tensorflow as tf
 import numpy as np
@@ -378,7 +378,7 @@ plt.show()
 
 ________________________________XXXXX______________________________________________
 
-#Pract6
+#Pract 6 : Implement LSTM for sentiment analysis on dataset UMICH SI65 or similar
 !pip install tensorflow
 import tensorflow as tf
 from tensorflow.keras.datasets import imdb
@@ -427,7 +427,7 @@ def decode_review(encoded):
 
 ____________________________________________XXXXXXXXXXX_______________________________
 
-#Pract7
+#Pract 7 : Write a program for the Implementation of a Generative Adversarial Network for generating synthetic shapes (like digits)
 !pip install tensorflow numpy matplotlib
 import tensorflow as tf
 from tensorflow.keras import layers
