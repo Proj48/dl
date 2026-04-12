@@ -56,7 +56,7 @@ def NOT_logicFunction(x):
   return perceptronModel(x,wNOT,bNOT)
 
 def AND_logicFunction(x):
-  w=np.array([1,1])
+  w=np.array([1,1]) ##v = 1 +1-1.5=0.5 -> output->1
   bAND=-1.5
   return perceptronModel(x,w,bAND)
 
