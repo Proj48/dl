@@ -23,6 +23,7 @@ Again steps are same
 _________________________XXXX________________________________________________________
 
 #Pract3 :Configuring and Managing Virtual Machines in Azure
+Gesource group name : SAK1 -> Vm name -> trial1 -> image:windows -> size of disk : 64 -> delete disk with VM : tick -> steps -> now delete virtual machine
 
 #Pract 4 :Virtual machine scale sets
 select VMSS -> Vmss name:VMSS1 -> Same almost
