@@ -26,7 +26,7 @@ _________________________XXXX___________________________________________________
 Gesource group name : SAK1 -> Vm name -> trial1 -> image:windows -> size of disk : 64 -> delete disk with VM : tick -> steps -> now delete virtual machine
 
 #Pract 4 :Virtual machine scale sets
-select VMSS -> Vmss name:VMSS1 -> Same almost
+select VMSS -> Vmss name:SAK1 -> Nname : trial2 -> Next-> In management tab: create load balancer-> name: auzre_load1 ->Same almost
 
 _____________________________XXXX____________________________________________________________-
 
